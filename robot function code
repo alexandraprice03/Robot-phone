@@ -1,0 +1,25 @@
+def backward():    
+    Left_Motor_speed = .7
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed= .7
+    Right_Motor.throttle = Right_Motor_speed
+def stop():
+    Left_Motor_speed = 0
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed= 0
+    Right_Motor.throttle = Right_Motor_speed
+def foward():
+    Left_Motor_speed = -.7
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed= -.7
+    Right_Motor.throttle = Right_Motor_speed
+def right():
+    Left_Motor_speed = .7
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed= -.7
+    Right_Motor.throttle = Right_Motor_speed
+def left():
+    Left_Motor_speed = -.7
+    Left_Motor.throttle = Left_Motor_speed
+    Right_Motor_speed= .7
+    Right_Motor.throttle = Right_Motor_speed
